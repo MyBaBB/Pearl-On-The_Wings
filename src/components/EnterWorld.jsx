@@ -29,7 +29,7 @@ const EnterWorld = () => {
           }}
         >
           
-            <span> Enter Tom Pergola&apos;s World </span>
+            <span>Visit Pearls on the Wings</span>
          
         </div>
         </a>

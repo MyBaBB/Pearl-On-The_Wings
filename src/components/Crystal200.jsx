@@ -11,7 +11,7 @@ function TrumpsArt() {
       <div className="Crystals200Wrapper   relative flex justify-center custom-landscape: mt-[12rem]
                       xxs:mt-[8rem] xs:mt-[5rem] sm:mt-0
                       scale-1 xxl:scale-150">
-        <div className=" Trumps200    ">
+        <div className=" Crystals200    ">
           <img
             src={Crystal200}
             alt="Image of Beloved Crystal"

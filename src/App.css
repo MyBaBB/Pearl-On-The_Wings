@@ -12,14 +12,14 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    background: url("./assets/OriginalScreenshot535x439.webp") no-repeat center fixed;
+    background: url("./assets/CrystalLargeImage.png") no-repeat center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
 }
-.Trumps200 {
+.Crystals200 {
  opacity: 1;
  scale: 1;
   }
