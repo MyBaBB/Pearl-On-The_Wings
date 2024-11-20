@@ -44,9 +44,9 @@ Error generating stack: `+l.message+`
                      px-5 py-2 border-[.5px] border-solid border-[#150806] rounded-full     \r
                      hover:shadow-[0_0_10px_rgb(0,0,0,0.4)] hover:scale-[.90]\r
                      transition-all duration-200 ease-in-out\r
-                     mt-[-6rem] xxs:mt-[-4rem] xs:mt-[-3rem] xxl:mt-0`,onClick:t=>{t.currentTarget.style.opacity=0},children:R.jsx("span",{children:" Enter Tom Pergola's World "})})})})}),Cm="/assets/Crystal200-D9auTtn5.jpg";function Tm(){return R.jsxs("div",{children:[" ",R.jsx("div",{className:`Crystals200Wrapper   relative flex justify-center custom-landscape: mt-[12rem]\r
+                     mt-[-6rem] xxs:mt-[-4rem] xs:mt-[-3rem] xxl:mt-0`,onClick:t=>{t.currentTarget.style.opacity=0},children:R.jsx("span",{children:"Visit Pearls on the Wings"})})})})}),Cm="/assets/Crystal200-D9auTtn5.jpg";function Tm(){return R.jsxs("div",{children:[" ",R.jsx("div",{className:`Crystals200Wrapper   relative flex justify-center custom-landscape: mt-[12rem]\r
                       xxs:mt-[8rem] xs:mt-[5rem] sm:mt-0\r
-                      scale-1 xxl:scale-150`,children:R.jsx("div",{className:" Trumps200    ",children:R.jsx("img",{src:Cm,alt:"Image of Beloved Crystal",className:"Crystal200Img"})})})]})}const Em=()=>R.jsx("div",{children:R.jsx("div",{className:`mainParagraph relative flex justify-center m-auto w-screen px-[1rem] sm:px-[8rem] lg:px-[10rem] \r
+                      scale-1 xxl:scale-150`,children:R.jsx("div",{className:" Crystals200    ",children:R.jsx("img",{src:Cm,alt:"Image of Beloved Crystal",className:"Crystal200Img"})})})]})}const Em=()=>R.jsx("div",{children:R.jsx("div",{className:`mainParagraph relative flex justify-center m-auto w-screen px-[1rem] sm:px-[8rem] lg:px-[10rem] \r
                        font-LibreBaskerville-Bold\r
                        text-sm xxs:text-[.9rem] xs:text-[1.25rem] sm:text-[1.25rem] md:text-3xl lg:text-4xl\r
                        overflow-hidden\r

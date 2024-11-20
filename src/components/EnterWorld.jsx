@@ -7,7 +7,7 @@ const EnterWorld = () => {
       <div className="EnterWorld ">
 
       <a
-            href="https://tompergolafineart.com?tfa=58BYKCG"
+            href="https://pearlsonthewings.com"
             onClick={(e) => {
               // e.target refers to the element that triggered the event, in this case the <a> element
               // We set its opacity to 0 to create a fade-out effect when the link is clicked
