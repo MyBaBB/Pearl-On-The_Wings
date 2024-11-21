@@ -1,6 +1,6 @@
 import React from "react";
 import Pearls200 from "../assets/Pearls200.jpg";
-import "./Pearls200.css"
+import "./Pearls.css"
 
 function TrumpsArt() {
      return (
