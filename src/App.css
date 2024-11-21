@@ -26,20 +26,6 @@
   .paragraphBlock {
     opacity: 1;
   }
-@media (max-width: 628px) {
-  .bgImageWrapper {
-    position: absolute;
-    width: 100vw;
-    height: 100vh;
-    background: url("./assets/Trio266x424.webp") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-
-  }
-}
 
 
 .MomsWorld {
@@ -79,12 +65,12 @@
 
  
 
-@media screen  and (max-width: 928px) and (max-height: 460px) and (orientation: landscape) {
+/* @media screen  and (max-width: 928px) and (max-height: 460px) and (orientation: landscape) {
   .pearls200Wrapper {
     display: none;
   }
 
-}
+} */
  
  .pleaseWait {
   color: rgb(114, 18, 18);
