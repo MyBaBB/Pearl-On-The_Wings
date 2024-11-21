@@ -85,18 +85,18 @@ const App = () => {
 
 
               {/* ref={el => (logoItem = el)}  */}
-                <div  className="crystalAnimation ">
+                <div ref={el => (logoItem = el)} className="crystalAnimation ">
                   <Pearls200/>
                 </div>
 
                 {/* ref={el => (fancyWorld = el)} */}
-                <div    className="fancyWorld ">
+                <div ref={el => (fancyWorld = el)}   className="fancyWorld ">
                   <EnterWorld />
                 </div>
 
 
                 {/* ref={el => (paragraphBlock = el)} */}
-                <div       className="paragraphBlock ">
+                <div ref={el => (paragraphBlock = el)}       className="paragraphBlock ">
                   <MainParagraph />
                   
                 </div>
