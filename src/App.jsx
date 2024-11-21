@@ -70,12 +70,12 @@ const App = () => {
        {/* <div className="fixed z-10 top-0 right-2 " >< Gorilla /></div>  */}
       <main className="relative flex justify-center border-4  border-solid border-[#203f53] m-auto overflow-hidden  ">
         <header className="sr-only">
-          <h1>Crystal</h1>
+          <h1>Pearls on the Wings</h1>
         </header>
 
       
         <section className=" ">
-          <h2 className="sr-only">Crystal at Home</h2>
+          <h2 className="sr-only">Carnel Baker Counseling</h2>
         </section>
         
         <div className="outerWrapper ">
