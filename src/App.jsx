@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Copyright from "./components/Copyright";
 import EnterWorld from "./components/EnterWorld";
-import Crystal200 from "./components/Crystal200";
+import Pearls200 from "./components/Pearls200";
 import MainParagraph from "./components/MainParagraph";
 // import Gorilla from "./components/GorillaFolder/Gorilla";
 import { useState,useRef, useEffect } from "react";
@@ -68,41 +68,44 @@ const App = () => {
   return (
     <div className="mainWrapper relative flex justify-center  border-2 border-solid border-black overflow-hidden  ">
        {/* <div className="fixed z-10 top-0 right-2 " >< Gorilla /></div>  */}
-      <main className="relative flex justify-center border-4  border-solid border-[#e4b561] m-auto overflow-hidden  ">
+      <main className="relative flex justify-center border-4  border-solid border-[#203f53] m-auto overflow-hidden  ">
         <header className="sr-only">
-          <h1>Crystal</h1>
+          <h1>Pearls on the Wings</h1>
         </header>
 
       
         <section className=" ">
-          <h2 className="sr-only">Crystal at Home</h2>
+          <h2 className="sr-only">Carnel Baker Counseling</h2>
         </section>
         
         <div className="outerWrapper ">
           <div className="bgImageWrapper     ">
-            <div className="opacityLayer relative flex w-screen h-screen bg-white/70">
+            <div className="opacityLayer relative flex w-screen h-screen bg-white/60">
               <div className="relative flex flex-col items-center justify-around h-full ">
 
 
               {/* ref={el => (logoItem = el)}  */}
-                <div ref={el => (logoItem = el)}   className="crystalAnimation ">
-                  <Crystal200 />
+                <div ref={el => (logoItem = el)} className="crystalAnimation ">
+                  <Pearls200/>
                 </div>
 
                 {/* ref={el => (fancyWorld = el)} */}
-                <div  ref={el => (fancyWorld = el)}   className="fancyWorld ">
+                <div ref={el => (fancyWorld = el)}   className="fancyWorld ">
                   <EnterWorld />
                 </div>
 
 
                 {/* ref={el => (paragraphBlock = el)} */}
-                <div  ref={el => (paragraphBlock = el)}    className="paragraphBlock ">
+                <div ref={el => (paragraphBlock = el)}       className="paragraphBlock ">
                   <MainParagraph />
+                  
                 </div>
+             
               </div>
+              
             </div>
 
-            <Copyright />
+            <Copyright /> 
           </div>
         </div>
       </main>

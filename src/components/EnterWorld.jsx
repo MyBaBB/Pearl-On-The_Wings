@@ -7,7 +7,7 @@ const EnterWorld = () => {
       <div className="EnterWorld ">
 
       <a
-            href="https://tompergolafineart.com?tfa=58BYKCG"
+            href="https://pearlsonthewings.com"
             onClick={(e) => {
               // e.target refers to the element that triggered the event, in this case the <a> element
               // We set its opacity to 0 to create a fade-out effect when the link is clicked
@@ -19,7 +19,7 @@ const EnterWorld = () => {
             }}
           >
         <div
-          className="PergolaWorld block  text-xs xxs:text-sm md:text-lg z-12 font-Aclonica-Regular w-fit mx-auto  
+          className="MomsWorld block  text-xs xxs:text-sm md:text-lg z-12 font-Aclonica-Regular w-fit mx-auto  
                      px-5 py-2 border-[.5px] border-solid border-[#150806] rounded-full     
                      hover:shadow-[0_0_10px_rgb(0,0,0,0.4)] hover:scale-[.90]
                      transition-all duration-200 ease-in-out
@@ -29,7 +29,7 @@ const EnterWorld = () => {
           }}
         >
           
-            <span> Enter Tom Pergola&apos;s World </span>
+            <span>Visit Pearls on the Wings</span>
          
         </div>
         </a>

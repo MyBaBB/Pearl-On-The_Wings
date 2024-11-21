@@ -1,4 +1,5 @@
  
-  # Donald Trump and Tom Pergola
-   ##  NPM run build to deploy to render.como
-  ![Tom Pergola](./public/TomandTrump400x600.jpg)
+  # Pearls on the Wings Ministries
+   ##  NPM run build on staging to render.com
+   ## NPM run build on main to mybabb.com
+  ![Crystal](./public/CrystalLargeImage.png)
