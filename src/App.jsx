@@ -98,14 +98,14 @@ const App = () => {
                 {/* ref={el => (paragraphBlock = el)} */}
                 <div ref={el => (paragraphBlock = el)}     className="paragraphBlock ">
                   <MainParagraph />
-                  <Copyright /> 
+                  
                 </div>
              
               </div>
               
             </div>
 
-            
+            <Copyright /> 
           </div>
         </div>
       </main>
