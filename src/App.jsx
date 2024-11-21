@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import Copyright from "./components/Copyright";
 import EnterWorld from "./components/EnterWorld";
-import Crystal200 from "./components/Crystal200";
+import Pearls200 from "./components/Pearls200";
 import MainParagraph from "./components/MainParagraph";
 // import Gorilla from "./components/GorillaFolder/Gorilla";
 import { useState,useRef, useEffect } from "react";
@@ -86,7 +86,7 @@ const App = () => {
 
               {/* ref={el => (logoItem = el)}  */}
                 <div ref={el => (logoItem = el)}   className="crystalAnimation ">
-                  <Crystal200 />
+                  <Pearls200/>
                 </div>
 
                 {/* ref={el => (fancyWorld = el)} */}
