@@ -16,6 +16,8 @@ function TrumpsArt() {
             src={Pearls200}
             alt="Image of Beloved Crystal"
             className="pearls200Img"
+            width="400"
+            
           />
         </div>
       </div>
