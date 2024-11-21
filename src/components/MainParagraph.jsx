@@ -11,7 +11,7 @@ const MainParagraph = () => {
                       
 
                         ">
-        <p className="m-auto py-2  ">
+        <p className="m-auto py-2 w-[85%] ">
           <span className="fancyParagraph block text-center">
           Career focus of Carnel is counseling ministry, teaching, speaking, training, and writing.  Carnel is a member of the American Association of Christian Therapist and serves as a Board Certified Diplomat.
           </span>
