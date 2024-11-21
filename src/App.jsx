@@ -68,7 +68,7 @@ const App = () => {
   return (
     <div className="mainWrapper relative flex justify-center  border-2 border-solid border-black overflow-hidden  ">
        {/* <div className="fixed z-10 top-0 right-2 " >< Gorilla /></div>  */}
-      <main className="relative flex justify-center border-4  border-solid border-[#e4b561] m-auto overflow-hidden  ">
+      <main className="relative flex justify-center border-4  border-solid border-[#203f53] m-auto overflow-hidden  ">
         <header className="sr-only">
           <h1>Crystal</h1>
         </header>
@@ -80,29 +80,32 @@ const App = () => {
         
         <div className="outerWrapper ">
           <div className="bgImageWrapper     ">
-            <div className="opacityLayer relative flex w-screen h-screen bg-white/70">
+            <div className="opacityLayer relative flex w-screen h-screen bg-white/60">
               <div className="relative flex flex-col items-center justify-around h-full ">
 
 
               {/* ref={el => (logoItem = el)}  */}
-                <div ref={el => (logoItem = el)}   className="crystalAnimation ">
+                <div ref={el => (logoItem = el)} className="crystalAnimation ">
                   <Pearls200/>
                 </div>
 
                 {/* ref={el => (fancyWorld = el)} */}
-                <div  ref={el => (fancyWorld = el)}   className="fancyWorld ">
+                <div  ref={el => (fancyWorld = el)}  className="fancyWorld ">
                   <EnterWorld />
                 </div>
 
 
                 {/* ref={el => (paragraphBlock = el)} */}
-                <div  ref={el => (paragraphBlock = el)}    className="paragraphBlock ">
+                <div ref={el => (paragraphBlock = el)}     className="paragraphBlock ">
                   <MainParagraph />
+                  <Copyright /> 
                 </div>
+             
               </div>
+              
             </div>
 
-            <Copyright />
+            
           </div>
         </div>
       </main>

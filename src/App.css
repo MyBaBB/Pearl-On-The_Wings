@@ -42,33 +42,45 @@
 }
 
 
-.PergolaWorld {
+.MomsWorld {
   box-shadow: 2px 2px 2px 0px #000000;
 }
 
-.PergolaWorld {
+.MomsWorld {
   animation: Pworld 10s ease infinite;
 }
 
 @keyframes Pworld {
   0% {
-    background-color: black;
+    background-color: #203f53;
     color: white;
-  }
+    box-shadow: 
+    inset 0 0 5px #000000,
+    2px 2px 4px #000000;
+}
+ 
   50% {
-    background-color: #e4b561;
+    background-color: white;
     color: black;
+    box-shadow: 
+      inset 0 0 5px skyblue,
+      2px 2px 4px #000000;
+    text-shadow: 1.2px 1.2px 1.2px skyblue;  
   }
   100% {
-    background-color: black;
+    background-color: #203f53;
     color: white;
+    box-shadow: 
+      inset 0 0 5px #000000,
+      2px 2px 4px #000000;
   }
+ 
 }
 
  
 
 @media screen  and (max-width: 928px) and (max-height: 460px) and (orientation: landscape) {
-  .Crystals200Wrapper {
+  .pearls200Wrapper {
     display: none;
   }
 
@@ -82,7 +94,12 @@
     text-shadow: 0.8px 0.8px 0.8px black;
   }
 
- .fancyParagraph {
-  color: black;
-  text-shadow: 1.2px 1.2px 1.2px #e2b25b;
-}
+  .copyright {
+    background-color: #203f53;
+    color: white;
+    box-shadow: 
+      inset 0 0 5px #000000,
+      2px 2px 4px #000000;
+   
+  
+  }

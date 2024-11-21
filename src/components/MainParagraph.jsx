@@ -8,19 +8,14 @@ const MainParagraph = () => {
                        font-LibreBaskerville-Bold
                        text-sm xxs:text-[.9rem] xs:text-[1.25rem] sm:text-[1.25rem] md:text-3xl lg:text-4xl
                        overflow-hidden
-                      bg-[#e7c282]/50   
+                      
 
                         ">
         <p className="m-auto py-2  ">
           <span className="fancyParagraph block text-center">
-            Welcome to the vibrant world of Tom Pergola!
+          Career focus of Carnel is counseling ministry, teaching, speaking, training, and writing.  Carnel is a member of the American Association of Christian Therapist and serves as a Board Certified Diplomat.
           </span>
-          <span className="fancyParagraph block text-center  ">
- 
-            As a renowned artist, I create dynamic and captivating
-            &apos;<span><em>Assemblage Plastique</em></span>&apos; sculptures that immortalize the
-            everyday icons of our culture.
-          </span>
+          
         </p>
       </div>
     </div>

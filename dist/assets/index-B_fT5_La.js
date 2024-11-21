@@ -46,7 +46,7 @@ Error generating stack: `+l.message+`
                      transition-all duration-200 ease-in-out\r
                      mt-[-6rem] xxs:mt-[-4rem] xs:mt-[-3rem] xxl:mt-0`,onClick:t=>{t.currentTarget.style.opacity=0},children:R.jsx("span",{children:"Visit Pearls on the Wings"})})})})}),Tm="/assets/Pearls200-CVxEOiVT.jpg";function Cm(){return R.jsxs("div",{children:[" ",R.jsx("div",{className:`Crystals200Wrapper   relative flex justify-center custom-landscape: mt-[12rem]\r
                       xxs:mt-[8rem] xs:mt-[5rem] sm:mt-0\r
-                      scale-1 xxl:scale-150`,children:R.jsx("div",{className:"pearls200    ",children:R.jsx("img",{src:Tm,alt:"Image of Beloved Crystal",className:"pearls200Img"})})})]})}const Em=()=>R.jsx("div",{children:R.jsx("div",{className:`mainParagraph relative flex justify-center m-auto w-screen px-[1rem] sm:px-[8rem] lg:px-[10rem] \r
+                      scale-1 xxl:scale-150`,children:R.jsx("div",{className:"pearls200    ",children:R.jsx("img",{src:Tm,alt:"Image of Beloved Crystal",className:"pearls200Img",width:"400"})})})]})}const Em=()=>R.jsx("div",{children:R.jsx("div",{className:`mainParagraph relative flex justify-center m-auto w-screen px-[1rem] sm:px-[8rem] lg:px-[10rem] \r
                        font-LibreBaskerville-Bold\r
                        text-sm xxs:text-[.9rem] xs:text-[1.25rem] sm:text-[1.25rem] md:text-3xl lg:text-4xl\r
                        overflow-hidden\r
