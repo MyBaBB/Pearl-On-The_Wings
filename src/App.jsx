@@ -10,60 +10,77 @@ import { useState,useRef, useEffect } from "react";
 import { gsap } from "gsap";
  
 const App = () => {
+   
   let logoItem = useRef('null');
   useEffect(() => {
     console.log(logoItem);
-    gsap.from(
+    gsap.fromTo(
       logoItem,
-    
-       { scale: 0,
-        ease: "bounce", 
-        duration: 2.2,
-        y: 100,
-        opacity: 1,
-       });
-   
+      { scale: 0, y: 100, opacity: 0 },
+      { scale: 1, ease: "bounce", duration: 2.2, y: 0, opacity: 1 }
+    );
   }, []);
-   console.log(logoItem);
+    
+    
 
 
   let paragraphBlock = useRef('null');
   useEffect(() => {
   
-    gsap.from(
+    gsap.fromTo(
       paragraphBlock,
     
        { 
-        delay:1.5,
-        ease: "power3.out", 
-        duration: 0.8,
-        x: 800,
+        rotationX: 0,
+        y: -100,
         opacity: 0,
+        scale: 0,
+       },
+       { 
+        ease: "power3.out", 
+        duration: 1.5,
+        rotationX:360,
+        y: 0,
+        opacity: 1,
+        scale: 1,
+        delay:1.5
        });
    
   }, []);
-   console.log(paragraphBlock);
-
-
-  let fancyWorld= useRef('null');
-  useEffect(() => {
-  
-    gsap.from(
-      fancyWorld,
     
-       { 
-        delay:1.5,
+
+
+  let fancyWorld = useRef('null');
+  useEffect(() => {
+    gsap.fromTo(
+      fancyWorld,
+      { 
+        delay: 1.5,
         ease: "power3.out", 
         duration: 2,
-        y: 20,
-        opacity: 1,
+        y: -200,
+        opacity: 0,
         elastic: 0.5,
-   
+      },
+      { 
+        y: 0,
+        opacity: 1,
+      }
+    );
+    
+    gsap.to(fancyWorld, {
+      duration: 10,
+      ease: "power3.inOut",
+  
+      // Move the element up and down by a random amount between -5 and 5
+      // and left and right by a random amount between -10 and 10
+      y: function() {
+        return Math.random() * 10 - 5;
+      },
       
-       });
-   
+    });
   }, []);
-   console.log(fancyWorld);
+   
 
   return (
     <div className="mainWrapper relative flex justify-center  border-2 border-solid border-black overflow-hidden  ">
@@ -85,12 +102,12 @@ const App = () => {
 
 
               {/* ref={el => (logoItem = el)}  */}
-                <div ref={el => (logoItem = el)} className="crystalAnimation ">
+                <div ref={el => (logoItem = el)}  className="crystalAnimation ">
                   <Pearls200/>
                 </div>
 
                 {/* ref={el => (fancyWorld = el)} */}
-                <div ref={el => (fancyWorld = el)}   className="fancyWorld ">
+                <div ref={el => (fancyWorld = el)}    className="fancyWorld ">
                   <EnterWorld />
                 </div>
 
