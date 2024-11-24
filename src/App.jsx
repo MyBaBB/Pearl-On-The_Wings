@@ -58,7 +58,7 @@ const App = () => {
         delay: 1.5,
         ease: "power3.out", 
         duration: 2,
-        y: -200,
+        y: -400,
         opacity: 0,
         elastic: 0.5,
       },
