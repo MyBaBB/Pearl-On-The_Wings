@@ -19,7 +19,7 @@ const EnterWorld = () => {
             }}
           >
         <div
-          className="MomsWorld block  text-xs xxs:text-sm md:text-lg z-12 font-Aclonica-Regular w-fit mx-auto  
+          className="MomsWorld block  z-12 font-Aclonica-Regular w-fit mx-auto  
                      px-5 py-2 border-[.5px] border-solid border-[#150806] rounded-full     
                      hover:shadow-[0_0_10px_rgb(0,0,0,0.4)] hover:scale-[.90]
                      transition-all duration-200 ease-in-out
@@ -29,7 +29,7 @@ const EnterWorld = () => {
           }}
         >
           
-            <span>Visit Pearls on the Wings</span>
+            <span className="text-base md:text-2xl">Visit Pearls on the Wings</span>
          
         </div>
         </a>
